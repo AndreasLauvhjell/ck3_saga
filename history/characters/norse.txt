@@ -298,19 +298,6 @@
 	}
 }
 
-6844 = {
-	name = "Dag"
-	dynasty = 836
-	religion = "norse_pagan"
-	culture = "norse"
-	846.1.1 = {
-		birth = yes
-	}
-	895.1.1 = {
-		death = yes
-	}
-}
-
 6845 = {
 	name = "Sveinn"
 	dynasty = 838
@@ -320,19 +307,6 @@
 		birth = yes
 	}
 	895.1.1 = {
-		death = yes
-	}
-}
-
-6846 = {
-	name = "A_ke"
-	dynasty = 839
-	religion = "norse_pagan"
-	culture = norse
-	840.1.1 = {
-		birth = yes
-	}
-	897.1.1 = {
 		death = yes
 	}
 }
@@ -2975,57 +2949,6 @@
 	}
 }
 
-144000 = {
-	name = "Haraldr" # "Fairhair"
-	dna = 144000_haraldr_fairhair
-	dynasty = 499
-	religion = "norse_pagan"
-	culture = norse
-	martial = 7
-	stewardship = 6
-	diplomacy = 7
-	intrigue = 5
-	learning = 5
-	trait = intellect_good_1
-	trait = calm
-	trait = brave
-	trait = ambitious
-	trait = lifestyle_hunter
-	trait = education_martial_3
-	father = 168323
-	mother = 168649
-	850.1.1 = {
-		give_nickname = nick_tanglehair
-		birth = "850.1.1"
-		effect = {
-			add_character_flag = has_scripted_appearance
-		}	
-	}
-	865.1.1 = {
-		effect = {
-			# Stuck with the cut hair.
-			add_character_modifier = harald_tanglehairs_vow_modifier
-		}
-	}
-	867.1.1 = {
-		add_spouse = 6862
-		effect = {
-			add_prestige = 400
-		}
-	}
-	872.1.1 = {
-		give_nickname = nick_fairhair
-		add_concubine = 166044
-	}
-	893.1.1 = {
-		add_concubine = 161305
-	}
-	
-	933.1.1 = {
-		death = "933.1.1"
-	}
-}
-
 144001 = {
 	name = "Hakon"
 	dynasty = 499
@@ -4866,18 +4789,9 @@
 }
 
 #Trøndelag
-186004 = {
-	name = "RO_gnvaldr"
-	dynasty = 1043303
-	religion = "norse_pagan"
-	culture = "norse"
-	830.1.1 = {
-			birth = "830.1.1"
-			}
-	892.1.1 = {
-			death = "892.1.1"
-			}
-}
+# 186004 = {
+#	name = "RO_gnvaldr"
+#}
 
 186005 = {
 	name = "Hild"
@@ -4961,34 +4875,6 @@
 			}
 	880.1.1 = {
 			death = "892.1.1"
-			}
-}
-
-#Hålogaland
-186002 = {
-	name = "Grjotgard"
-	dynasty = 1043302
-	religion = "norse_pagan"
-	culture = "norse"
-	790.1.1 = {
-			birth = "790.1.1"
-			}
-	868.1.1 = {
-			death = "868.1.1"
-			}
-}
-
-186003 = {
-	name = "Hakon"
-	dynasty = 1043302
-	father = 186002
-	religion = "norse_pagan"
-	culture = "norse"
-	845.1.1 = {
-			birth = "845.1.1"
-			}
-	917.1.1 = {
-			death = "917.1.1"
 			}
 }
 
@@ -5390,20 +5276,6 @@
 	}
 }
 
-168320 = {
-	name = "GuT_rO_T_r"
-	dynasty = 499
-	religion = "norse_pagan"
-	culture = "norse"
-	father = 168319
-	805.1.1 = {
-		birth = "805.1.1"
-	}
-	865.1.1 = {
-		death = "865.1.1"
-	}
-}
-
 168321 = {
 	name = "Olafr"
 	dynasty = 499
@@ -5429,24 +5301,6 @@
 	}
 	895.1.1 = {
 		death = "895.1.1"
-	}
-}
-
-
-168323 = {
-	name = "Halfdan"
-	dynasty = 499
-	religion = "norse_pagan"
-	culture = "norse"
-	father = 168320
-	825.1.1 = {
-		birth = "825.1.1"
-	}
-	849.1.1 = {
-		add_spouse = 168649
-	}
-	866.1.1 = {
-		death = "866.1.1"
 	}
 }
 
@@ -6334,27 +6188,6 @@
 	}
 	
 	888.1.1 = {
-		death = yes
-	}
-}
-
-168650 = {
-	name = "Guttorm"
-	dynasty = 9613
-	religion = "norse_pagan"
-	culture = "norse"
-	father = 168648
-	mother = 168632
-	839.1.1 = {
-		birth = yes
-		effect = { add_character_flag = do_not_generate_starting_family }
-	}
-	881.1.1 = {
-		religion = "catholic"
-		name = "E_thelstan"
-		culture = anglo_saxon
-	}
-	891.1.1 = {
 		death = yes
 	}
 }
@@ -7275,3 +7108,399 @@
 		death = yes
 	}
 }
+
+#################################################################################
+#																				#
+#			  SAGA - a sagahistorical mod by Hjaldrgud / Hildgod.				#
+#																				#
+#			Viljið tær nú lýða á,				Will you now listen,			#  
+#			meðan eg man kvøða.					whilst I will sing.				#
+#			Um teir ríku kongarnar,				About the rich kings			#
+#			sum eg vil nú umrøða. 				that I will now speak of.		#
+#																				#
+#################################################################################
+
+#YNGLINGS
+
+168320 = {
+	name = "Guðrøðr" #Harald Tanglehair's grandfather
+	dynasty = 499
+	religion = "norse_pagan"
+	culture = "norse"
+	father = 168319
+	trait = lifestyle_hunter
+	#TODO Add wife Alfhild
+	805.1.1 = {
+		birth = "805.1.1"
+	}
+	821.1.1 = {
+		give_nickname = nick_the_hunter #"He was called Gudrod the Magnificent, and also Gudrod the Hunter."
+		death = yes  #"Halfdan was a year old when his father was killed"
+		death_reason = death_murder
+	}
+}
+
+168323 = {
+	name = "Hálfdan" #Harald Tanglehair's father
+	dynasty = 499
+	religion = "norse_pagan"
+	culture = "norse"
+	father = 168320
+	810.1.1 = { #Changed from 825 -Hjaldrgud
+		effect = { give_nickname = nick_yngling_the_black }		
+	}
+	849.1.1 = {
+		add_spouse = 168649
+	}
+	860.3.3 = { #Died when Harald was 10 winters old in Randsfjorden when his horse went through the ice. -Hjaldrgud
+		death = yes
+		death_reason = death_drowned
+	}
+}
+
+144000 = {
+	name = "Haraldr" # "Fairhair"
+	dna = 144000_haraldr_fairhair
+	dynasty = 499
+	religion = "norse_pagan"
+	culture = norse
+	martial = 7
+	stewardship = 6
+	diplomacy = 7
+	intrigue = 5
+	learning = 5
+	trait = intellect_good_1
+	trait = ambitious
+	trait = brave
+	trait = diligent 
+	trait = aggressive_attacker
+	trait = lifestyle_hunter
+	trait = education_martial_3
+
+	father = 168323
+	mother = 168649
+	850.1.1 = {
+		give_nickname = nick_tanglehair
+		birth = "850.1.1"
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	865.1.1 = {
+		effect = {
+			# Stuck with the cut hair.
+			add_character_modifier = harald_tanglehairs_vow_modifier
+		}
+		set_relation_friend = {  #Guttorm Hjort, his councillor, baptizor, regent in his absence. -Hjaldrgud
+			reason = friend_generic_history target = character:168650 
+		} 
+	}
+	867.1.1 = {
+		add_spouse = 6862
+		effect = {
+			add_prestige = 400
+		}
+	}
+	870.1.1 = {
+		set_relation_friend = { reason = friend_generic_history target = character:186004 } #Ragnvald Mørejarl
+	}
+	872.1.1 = {
+		give_nickname = nick_fairhair
+		add_concubine = 166044
+	}
+	893.1.1 = {
+		add_concubine = 161305
+	}
+	
+	933.1.1 = {
+		death = "933.1.1"
+	}
+}
+
+#HJORT
+168650 = {
+	name = "Guðþormr"
+	dynasty = 9613
+	religion = "norse_pagan"
+	culture = "norse"
+	father = 168648
+	mother = 168632
+	martial = 6
+	diplomacy = 9
+	stewardship = 6
+	trait = education_diplomacy_3
+	trait = honest #Seems like an okay guy -Hjaldrgud
+	839.1.1 = {
+		birth = yes
+		effect = { add_character_flag = do_not_generate_starting_family }
+	}
+	860.1.1 = {
+		add_trait = loyal #Harald's regent after Harald's father Halfdan died and continued as regent when Harald was away from his domain.
+		add_trait = defender #Defended Harald's domain from attackers trying to take advantage of the power vacuum after Harald's father Halfdan's death.
+	}
+	881.1.1 = { #wut??
+		religion = "catholic"
+		name = "E_thelstan"
+		culture = anglo_saxon
+	}
+	891.1.1 = {
+		death = yes
+	}
+}
+
+
+#ALFHEIM
+8670010 = { 
+	name = "Gandálfr" #Gandalf Alfgeirsson
+	dynasty = 836 #TODO Create dynasty akin to "Alf" "Gandalf"
+	religion = "norse_pagan"
+	culture = "norse"
+	820.1.1 = {
+		birth = yes
+	}
+	870.1.1 = {
+		death = yes
+	}
+}
+
+8670011 = { 
+	name = "Hakí" #Hake Gandalfsson
+	#dynasty = 836 #TODO Create dynasty akin to "Alf" "Gandalf"
+	father = 8670010
+	religion = "norse_pagan"
+	culture = "norse"
+	840.1.1 = {
+		birth = yes
+	}
+	861.1.1 = { #Killed in a battle vs Harald and Guttorm in a valley called Hakadal 
+		death = yes
+	}
+}
+
+8670012 = { 
+	name = "Hysingr" #Hysing Gandalfsson
+	#dynasty = 836 #TODO Create dynasty akin to "Alf" "Gandalf"
+	father = 8670010
+	religion = "norse_pagan"
+	culture = "norse"
+	845.1.1 = {
+		birth = yes
+	}
+	861.1.1 = { #Killed in battle by Guttorm Hjort
+		death = yes
+	}
+}
+
+8670013 = { #TODO Create history of Raumariket that Hake ruled this area.
+	name = "Helsingr" #Hake Gandalfsson
+	#dynasty = 836 #TODO Create dynasty akin to "Alf" "Gandalf"
+	father = 8670010
+	religion = "norse_pagan"
+	culture = "norse"
+	850.1.1 = {
+		birth = yes
+	}
+	861.1.1 = { #Killed in battle by Guttorm Hjort
+		death = yes
+	}
+}
+
+#HEDMARK
+#TODO: https://no.wikipedia.org/wiki/Helg%C3%B8ya_(Ringsaker) Etter sagnene bygget hedmarkingenes konge Øystein sitt kongssete på Hovinsholm som i flere slektledd bakover hadde tilhørt hans slekt. I tillegg til det lokale riket hadde kong Øystein også lagt Romerike lenger sørover under seg. Han gav dette riket til den ene sønnen, Sigtrygg, mens den andre, Øystein, fikk Hedmark. 
+8670020  = { 
+	name = "Eysteinn" #Petty King Øystein  https://no.wikipedia.org/wiki/Mytiske_norske_konger#Hedemarken_(Heinafylke)
+	dynasty = 836 #"Hede" TODO Check it out if any historical basis
+	religion = "norse_pagan"
+	culture = "norse"
+	735.1.1 = { #"Late 700s"
+		birth = yes
+	}
+	#TODO Add nickname Hardråde
+	810.1.1 = {
+		death = yes
+	}
+}
+
+8670021  = { 
+	name = "Sigtrygg" #Petty King Sigtrygg Øysteinsson  https://no.wikipedia.org/wiki/Mytiske_norske_konger#Hedemarken_(Heinafylke)
+	dynasty = 836 #"Hede" TODO Check it out if any historical basis
+	father = 8670020
+	religion = "norse_pagan"
+	culture = "norse"
+	788.1.1 = {
+		birth = yes
+	}
+	830.1.1 = { #Died in battle against Halfdan the Black. He tried to flee, but was struck by an arrow.
+		death = yes
+	}
+}
+
+8670022  = { 
+	name = "Eysteinn" #Petty King Øystein Øysteinsson  https://no.wikipedia.org/wiki/Mytiske_norske_konger#Hedemarken_(Heinafylke)
+	dynasty = 836 #"Hede" TODO Check it out if any historical basis
+	father = 8670020
+	religion = "norse_pagan"
+	culture = "norse"
+	805.1.1 = { #His old age explains why he lets his sons fight in the saga.
+		birth = yes
+	}
+	847.1.1 = {
+		#TODO Create rivalry with Halfdan the black over wars over Raumariket and killing his older brother Sigtrygg.
+	}
+	870.1.1 = {
+		death = yes
+	}
+}
+
+#TODO create death reasons and who killed them
+8670021 = { 
+	name = "Hogni" #(heir1) Hogne Øysteinsson https://no.wikipedia.org/wiki/Mytiske_norske_konger#Hedemarken_(Heinafylke)
+	dynasty = 836 #"Hede" TODO Check it out if any historical basis
+	father = 8670022
+	religion = "norse_pagan"
+	culture = "norse"
+	842.1.1 = { #Killed in an ambush by Harald and Guttorm after Guttorm found out where Eysteinn was rallying troops for an attack.
+		birth = yes
+	}
+	869.1.1 = {
+		death = yes
+	}
+}
+
+8670023 = { 
+	name = "Froði" #(heir2) Frode Øysteinsson https://no.wikipedia.org/wiki/Mytiske_norske_konger#Hedemarken_(Heinafylke)
+	dynasty = 836 #"Hede" TODO Check it out if any historical basis
+	father = 8670022
+	religion = "norse_pagan"
+	culture = "norse"
+	844.1.1 = { #Killed in an ambush by Harald and Guttorm after Guttorm found out where Eysteinn was rallying troops for an attack.
+		birth = yes
+	}
+	869.1.1 = {
+		death = yes
+	}
+}
+
+#Fantasy relative woman with son so Øystein has a relative "Hallvard Tjener" which he sent to Halfdan to negotiate for him
+#"Så sendte han sin slægtning Hallvard Tjener til kong Halvdan for at søge forlig, og for slægtskabs skyld gav Halvdan det halve Hedemark til Øistein."
+#"and sent his relation Halvard Skalk to King Halfdan to beg for peace. On consideration of their relationship, King Halfdan gave King Eystein half of Hedemark, which he and his relations had held before"
+8670024  = { 
+	name = "Fríðlaug" #Hallvard Tjener's mother. A peace negotiator's mother should have a name that sounds like
+	dynasty = 836 #"Hede" TODO Check it out if any historical basis
+	father = 8670020
+	religion = "norse_pagan"
+	culture = "norse"
+	782.1.1 = { #His old age explains why he lets his sons fight in the saga.
+		birth = yes
+	}
+	862.1.1 = {
+		death = yes
+	}
+}
+#TODO, Create Hallvard tjener, high diplomacy!
+
+#Eysteinn's vassals
+
+#Gudbrand
+8670023 = { 
+	name = "Gudbrand" #Herse Gudbrand of Gudbrandsdal
+	#dynasty = 836 #TODO Create dynasty akin to "Gudbrand"
+	religion = "norse_pagan"
+	culture = "norse"
+	800.1.1 = {
+		birth = yes
+	}
+	869.1.1 = { #Burned to death inside a longhouse by Harald and Guttorm after Guttorm found out where Eysteinn was rallying troops for an attack.
+		death = yes
+	}
+}
+
+8670023 = { 
+	name = "Guttorm" #Son of Herse Gudbrand of Gudbrandsdal, killed in a battle vs Halfdan the Black.
+	#dynasty = 836 #TODO Create dynasty akin to "Gudbrand"
+	religion = "norse_pagan"
+	father = 8670023
+	culture = "norse"
+	816.1.1 = {
+		birth = yes
+	}
+	832.1.1 = { #Was killed by Halfdan the black in one of the subsequent battles after Øystein retook, then lost Raumariket.
+		death = yes
+	}
+}
+
+#Østerdalen
+8670025 = { 
+	name = "Hogni" #Herse Hogne Kåresson of *not mentioned*, but gets Østerdalen since that fits the game
+	#dynasty = 836 #TODO Create dynasty
+	religion = "norse_pagan"
+	culture = "norse"
+	848.1.1 = {
+		birth = yes
+	}
+	869.1.1 = { #Burned to death inside a longhouse by Harald and Guttorm after Guttorm found out where Eysteinn was rallying troops for an attack.
+		death = yes
+	}
+}
+
+
+
+#MÆRI
+186004 = { #TODO get ǫ to work
+	name = "Røgnvaldr" #Ragnvald Mørejarl, called both "Mighty" and "Wise"
+	dynasty = 1043303
+	religion = "norse_pagan"
+	culture = "norse"
+	martial = 9 #"The Mighty"
+	learning = 9 #"The Wise"
+	trait = zealous #Jarls of Mæri held great blóts
+	trait = brave 
+	trait = education_martial_2
+	830.1.1 = {
+		birth = "830.1.1"
+	}
+	865.1.1 = {
+		effect = { give_nickname = nick_mærijarl }
+	}
+	892.1.1 = {
+		death = "892.1.1"
+	}
+}
+
+#TRØNDELAG (LADE)
+186002 = {
+	name = "Grjotgard"
+	dynasty = 1043302
+	religion = "norse_pagan"
+	culture = "norse"
+	martial = 7
+	trait = zealous #Jarls of Hlađi held great blóts
+	trait = education_martial_2
+	790.1.1 = {
+		birth = "790.1.1"
+	}
+	868.1.1 = {
+		death = "868.1.1"
+	}
+}
+
+186003 = {
+	name = "Hákon" #Håkon Grjotgardsson
+	dynasty = 1043302
+	father = 186002
+	religion = "norse_pagan"
+	culture = "norse"
+	trait = education_diplomacy_3
+	trait = zealous #Jarls of Hlađi held great blóts
+	trait = diligent
+	845.1.1 = {
+		birth = "845.1.1"
+	}
+	917.1.1 = {
+		death = "917.1.1"
+	}
+}
+
+
+
+ #TODO Atli hinn Mjovi of Sogn

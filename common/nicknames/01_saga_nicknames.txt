@@ -1,0 +1,9 @@
+nick_yngling_whiteshanks = { }
+nick_yngling_fart = { }
+nick_yngling_the_generous_and_foodgrudging = { }
+nick_yngling_hunterking = { }
+nick_yngling_geirstadalf = { }
+nick_yngling_highly_honoured = { }
+nick_yngling_the_black = { }
+
+nick_the_walker = { }

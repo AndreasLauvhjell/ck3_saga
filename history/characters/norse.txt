@@ -4936,6 +4936,8 @@
 	dynasty = 1043304
 	religion = "norse_pagan"
 	culture = "norse"
+	trait = education_stewardship_4
+	trait = avaricious
 	812.1.1 = {
 			birth = "812.1.1"
 			}
@@ -4945,11 +4947,15 @@
 }
 
 186012 = {
-	name = "Tore"
+	name = "Tore" #Todo nickname Haklang
 	dynasty = 1043304
 	religion = "norse_pagan"
 	culture = "norse"
 	father = 186011
+	trait = education_martial_3
+	trait = giant
+	trait = lisping #YOU HAVE SERIOUSLY REMOVED HARELIP??! CMON! Haklangr: 'hare-lipped and tall'
+	trait = berserker
 	842.1.1 = {
 			birth = "842.1.1"
 			}
@@ -6561,18 +6567,6 @@
 		death = yes
 	}
 }
-194057 = {
-	name = "RO_gnfriT_"
-	female = yes
-	religion = norse_pagan
-	culture = norse
-	730.1.1 = {
-		birth = yes
-	}
-	780.1.1 = {
-		death = yes
-	}
-}
 194058 = {
 	name = "Alfsol"
 	female = yes
@@ -6793,104 +6787,6 @@
 	}
 }
 
-168323 = {
-	name = "Hálfdan" #"The Black" Guðrøðsson
-	dynasty = 499
-	religion = "norse_pagan"
-	culture = "norse"
-	father = 168320
-	818.1.1 = { #Based on historian and archeologist Ólafía Einarsdóttir's chronology
-		birth = "818.1.1"
-		give_nickname = nick_yngling_the_black 			
-	}
-	847.1.1 = {
-		add_spouse = 168649
-	}
-	858.3.3 = { #Died at 40 years old when Harald was 10 winters old in Randsfjorden when his horse went through the ice. -Hjaldrgud
-		death = yes
-		death_reason = death_drowned
-	}
-}
-
-168324 = { #TODO Fix the Harald Fairhair's mother Sogn vs Hjort cerfluffle... Hint, it's Sogn.
-	name = "Haraldr" 
-	#The dead bigger brother of Harald Fairhair born to Ragnhild Haraldsdatter of Sogn that's totally real and totally not 
-	#a retcon to enable Fairhair ancestry with Sigurd Hjort and in extension, Ragnar Lodbrok... 
-	dynasty = 499
-	religion = "norse_pagan"
-	culture = "norse"
-	father = 168323
-	mother = 168649
-	847.2.2 = {
-		birth = "847.2.2"
-	}
-	858.1.1 = {
-		death = "858.1.1"
-	}
-}
-
-144000 = {
-	name = "Haraldr" #"Fairhair" Hálfdansson
-	dna = 144000_haraldr_fairhair
-	dynasty = 499
-	religion = "norse_pagan"
-	culture = norse
-	father = 168323
-	mother = 168649
-	martial = 7
-	stewardship = 6
-	diplomacy = 7
-	intrigue = 5
-	learning = 5
-	trait = intellect_good_1
-	trait = ambitious
-	trait = brave
-	trait = diligent 
-	trait = aggressive_attacker
-	trait = lifestyle_hunter
-	trait = education_martial_3
-	848.1.1 = { #Based on historian and archeologist Ólafía Einarsdóttir's chronology
-		give_nickname = nick_tanglehair
-		birth = "848.1.1"
-		effect = {
-			add_character_flag = has_scripted_appearance
-		}	
-	}
-	865.1.1 = {
-		effect = {
-			# Stuck with the cut hair.
-			add_character_modifier = harald_tanglehairs_vow_modifier
-		}
-		set_relation_friend = {  #Guttorm Hjort, his councillor, baptizor, regent in his absence. -Hjaldrgud
-			reason = friend_generic_history target = character:8670000 
-		} 
-	}
-	866.1.1 = {
-		#add_spouse = 6862
-		#add_spouse = 8674701
-		
-		effect = {
-			add_prestige = 400
-			create_alliance = 186002
-			create_alliance = 186003
-			create_betrothal = character:8670050
-		}
-	}
-	870.1.1 = {
-		set_relation_friend = { reason = friend_generic_history target = character:186004 } #Ragnvald Mørejarl
-	}
-	872.1.1 = {
-		give_nickname = nick_fairhair
-		add_concubine = 166044
-	}
-	893.1.1 = {
-		add_concubine = 161305
-	}
-	933.1.1 = {
-		death = "933.1.1"
-	}
-}
-
 # # # # THE GEIRSTAD YNGLINGS OF VESTMAR AND VESTFOLD
 168321 = {
 	name = "Olafr" #Guðrøðsson (son of Hunter-King), Half-brother to Halfdan the Black.
@@ -7007,23 +6903,96 @@
 	}
 }
 
-168327 = {
-	name = "Eysteinn" #Olaf Olafsson
+# # # # Fairhair dynasty
+168323 = {
+	name = "Hálfdan" #"The Black" Guðrøðsson
 	dynasty = 499
 	religion = "norse_pagan"
 	culture = "norse"
-	father = 168330
-	852.1.1 = {
-		birth = "828.1.1"
+	father = 168320
+	818.1.1 = { #Based on historian and archeologist Ólafía Einarsdóttir's chronology
+		birth = "818.1.1"
+		give_nickname = nick_yngling_the_black 			
 	}
-	875.1.1 = {
-		death = "848.1.1"
+	847.1.1 = {
+		add_spouse = 168649
+	}
+	858.3.3 = { #Died at 40 years old when Harald was 10 winters old in Randsfjorden when his horse went through the ice. -Hjaldrgud
+		death = yes
+		death_reason = death_drowned
+	} #TODO "Helga of Tingelstad, daughter of Dag den Frode, Perfect for Thengill meme"
+}
+
+144000 = {
+	name = "Haraldr" #"Fairhair" Hálfdansson
+	dna = 144000_haraldr_fairhair
+	dynasty = 499
+	religion = "norse_pagan"
+	culture = norse
+	father = 168323
+	mother = 168649
+	martial = 7
+	stewardship = 6
+	diplomacy = 7
+	intrigue = 5
+	learning = 5
+	trait = intellect_good_1
+	trait = ambitious
+	trait = brave
+	trait = wrothful
+	#trait = diligent 
+	trait = aggressive_attacker
+	trait = lifestyle_hunter
+	trait = education_martial_3
+	848.1.1 = { #Based on historian and archeologist Ólafía Einarsdóttir's chronology
+		give_nickname = nick_tanglehair
+		birth = "848.1.1"
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	858.3.3 = {
+		capital = c_ringariki
+		set_primary_title_to = c_ringariki
+	}
+	865.1.1 = {
+		effect = {
+			# Stuck with the cut hair.
+			add_character_modifier = harald_tanglehairs_vow_modifier
+		}
+		set_relation_friend = {  #Guttorm Hjort, his councillor, baptizor, regent in his absence. -Hjaldrgud
+			reason = friend_generic_history target = character:8670000 
+		} 
+	}
+	866.1.1 = {
+		#add_spouse = 6862
+		#add_spouse = 8674701
+		
+		effect = {
+			add_prestige = 400
+			create_alliance = 186002
+			create_alliance = 186003
+			create_betrothal = character:8670050
+		}
+	}
+	870.1.1 = {
+		set_relation_friend = { reason = friend_generic_history target = character:186004 } #Ragnvald Mørejarl
+	}
+	872.1.1 = {
+		give_nickname = nick_fairhair
+		add_concubine = 166044
+	}
+	893.1.1 = {
+		add_concubine = 161305
+	}
+	933.1.1 = {
+		death = "933.1.1"
 	}
 }
 
-# # # # Hjort family
+# # # # Hjort family -> Hvassi
 168328 = {
-	name = "Helgi" #Hassi TODO Create nickname
+	name = "Helgi" #Hvassi TODO Create nickname
 	dynasty = 499
 	religion = "norse_pagan"
 	culture = "norse"
@@ -7037,7 +7006,7 @@
 }
 
 168648 = {
-	name = "SigurT_r"
+	name = "SigurT_r" #Hjort
 	dynasty = 9613
 	religion = "norse_pagan"
 	culture = "norse"
@@ -7136,6 +7105,37 @@
 }
 
 # # # # The Flatnefr guys
+168611 = {
+	name = "Bjørn"
+	dynasty = 9612
+	religion = "norse_pagan"
+	culture = "norse"
+	790.1.1 = {
+		birth = yes
+	}
+	
+	850.1.1 = {
+		death = yes
+	}
+}
+
+168610 = {
+	name = "Ketill" #Flatnefr
+	dynasty = 9612
+	religion = "norse_pagan"
+	culture = "norse"
+	father = 168611
+	815.1.1 = {
+		birth = yes
+	}
+	832.1.1 = {
+		add_spouse = 168612
+	}
+	874.1.1 = {
+		death = yes
+	}
+}
+
 168609 = { #Aud the Deep-minded, early Icelandic settler and credited as the one who brought Christianity to Iceland
 	name = "AuT_r"
 	female = yes
@@ -7162,7 +7162,6 @@
 		death = yes
 	}
 }
-
 
 168331 = {
 	name = "Eysteinn"
@@ -7222,40 +7221,6 @@
 }
 
 
-168610 = {
-	name = "Ketill"
-	dynasty = 9612
-	religion = "norse_pagan"
-	culture = "norse"
-	father = 168611
-	815.1.1 = {
-		birth = yes
-	}
-	832.1.1 = {
-		add_spouse = 168612
-	}
-	874.1.1 = {
-		death = yes
-	}
-}
-
-168611 = {
-	name = "Bjørn"
-	dynasty = 9612
-	religion = "norse_pagan"
-	culture = "norse"
-	790.1.1 = {
-		birth = yes
-	}
-	
-	850.1.1 = {
-		death = yes
-	}
-}
-
-
-
-
 
 # # # H Å L Ø Y G J A T A L # # #
 #		The Jarls of Lade 		#
@@ -7272,7 +7237,14 @@
 	} 
 	850.1.1 = {
 		capital = c_trandheim
+		set_primary_title_to = c_trandheim
 	}
+	850.1.1 = { 
+		#Hålogaland is their birthright through their lineage most probably from Malangen, troms 
+		#https://no.wikipedia.org/wiki/Ladejarlene#H%C3%A5l%C3%B8ygenes_flytting_til_Tr%C3%B8ndelag
+		add_pressed_claim = title:c_bothin
+		add_pressed_claim = title:c_vastvag
+	} 	
 	868.1.1 = {
 		death = "868.1.1"
 	}
@@ -7293,6 +7265,12 @@
 			add_prestige = 200
 			create_alliance = 186002
 		}
+	}
+	850.1.1 = { 
+		#Hålogaland is their birthright through their lineage most probably from Malangen, troms 
+		#https://no.wikipedia.org/wiki/Ladejarlene#H%C3%A5l%C3%B8ygenes_flytting_til_Tr%C3%B8ndelag
+		add_pressed_claim = title:c_bothin
+		add_pressed_claim = title:c_vastvag
 	}
 	917.1.1 = {
 		death = "917.1.1" #Vs Atli Jarl of Sogn
@@ -7337,6 +7315,8 @@
 
 # # # # HORDALAND
 #TODO FIX THIS
+#TODO Create Fitjung dynasty. Ref Hávamál about Fitjung brothers.
+
 166329 = {
 	name = "Eirikr" #Eirik of Hordaland
 	dynasty = 1040004
@@ -7365,6 +7345,7 @@
 	}
 }
 
+
 # # # # ROGALAND
 # TODO
 
@@ -7387,6 +7368,18 @@
 		death = yes
 	}
 }
+194057 = {
+	name = "RO_gnfriT_"
+	female = yes
+	religion = norse_pagan
+	culture = norse
+	730.1.1 = {
+		birth = yes
+	}
+	780.1.1 = {
+		death = yes
+	}
+}
 194056 = {
 	name = "Alfhildr"
 	female = yes
@@ -7404,8 +7397,8 @@
 }
 
 8670019= { 
-	name = "Alfgeirr" #Gandalfsson
-	#dynasty = 836 #TODO Create dynasty akin to "Alf" "Gandalf"
+	name = "Alfgeirr" #Gandalfsson #TODO WHO THEF IS THIS GUY?
+	dynasty = 1045022 #TODO Create dynasty akin to "Alf" "Gandalf"
 	religion = "norse_pagan"
 	culture = "norse"
 	820.1.1 = {
@@ -7418,12 +7411,15 @@
 
 8670020 = { #RULER c_raniriki
 	name = "Gandálfr" #Gandalf Alfgeirsson
-	#dynasty = 836 #TODO Create dynasty akin to "Alf" "Gandalf"
+	dynasty = 1045022 #TODO Create dynasty akin to "Alf" "Gandalf"
 	religion = "norse_pagan"
 	culture = "norse"
 	820.1.1 = {
 		birth = yes
 	}
+	855.1.1 = {
+		add_pressed_claim = title:c_vingulmork
+	} 	
 	870.1.1 = {
 		death = yes
 	}
@@ -7431,13 +7427,16 @@
 
 8670021 = { 
 	name = "Hakí" #Hake Gandalfsson
-	#dynasty = 836 #TODO Create dynasty akin to "Alf" "Gandalf"
+	dynasty = 1045022 #TODO Create dynasty akin to "Alf" "Gandalf"
 	father = 8670020
 	religion = "norse_pagan"
 	culture = "norse"
 	840.1.1 = {
 		birth = yes
 	}
+	855.1.1 = {
+		add_pressed_claim = title:c_vingulmork
+	} 	
 	861.1.1 = { #Killed in a battle vs Harald and Guttorm in a valley called Hakadal 
 		death = yes
 	}
@@ -7445,7 +7444,7 @@
 
 8670022 = { 
 	name = "Hysingr" #Hysing Gandalfsson
-	#dynasty = 836 #TODO Create dynasty akin to "Alf" "Gandalf"
+	dynasty = 1045022 #TODO Create dynasty akin to "Alf" "Gandalf"
 	father = 8670020
 	religion = "norse_pagan"
 	culture = "norse"
@@ -7459,14 +7458,14 @@
 
 8670023 = { #TODO Create history of Raumariket that Hake ruled this area.
 	name = "Helsingr" #Hake Gandalfsson
-	#dynasty = 836 #TODO Create dynasty akin to "Alf" "Gandalf"
+	dynasty = 1045022 #TODO Create dynasty akin to "Alf" "Gandalf"
 	father = 8670020
 	religion = "norse_pagan"
 	culture = "norse"
 	850.1.1 = {
 		birth = yes
 	}
-	861.1.1 = { #Killed in battle by Guttorm Hjort
+	868.1.1 = { #Really 861. need to check what happens. Killed in battle by Guttorm Hjort
 		death = yes
 	}
 }
@@ -7497,6 +7496,7 @@
 	culture = "norse"
 	788.1.1 = {
 		birth = yes
+		add_pressed_claim = title:c_vingulmork
 	}
 	831.1.1 = { #Died in battle against Halfdan the Black. He tried to flee, but was struck by an arrow.
 		death = yes
@@ -7511,6 +7511,7 @@
 	culture = "norse"
 	805.1.1 = { #His old age explains why he lets his sons fight in the saga.
 		birth = yes
+		add_pressed_claim = title:c_vingulmork		
 	}
 	847.1.1 = {
 		#TODO Create rivalry with Halfdan the black over wars over Raumariket and killing his older brother Sigtrygg.
@@ -7529,6 +7530,7 @@
 	culture = "norse"
 	842.1.1 = { #Killed in an ambush by Harald and Guttorm after Guttorm found out where Eysteinn was rallying troops for an attack.
 		birth = yes
+		add_pressed_claim = title:c_vingulmork
 	}
 	869.1.1 = {
 		death = yes
@@ -7543,6 +7545,7 @@
 	culture = "norse"
 	844.1.1 = { #Killed in an ambush by Harald and Guttorm after Guttorm found out where Eysteinn was rallying troops for an attack.
 		birth = yes
+		add_pressed_claim = title:c_vingulmork
 	}
 	869.1.1 = {
 		death = yes
@@ -7601,7 +7604,7 @@
 	}
 }
 
-8670041 = { 
+8670041 = { #TODO Check if his name is really "Óttar"
 	name = "Guttorm" #Son of Herse Gudbrand of Gudbrandsdal, killed in a battle vs Halfdan the Black.
 	#dynasty = 836 #TODO Create dynasty akin to "Gudbrand"
 	religion = "norse_pagan"
@@ -7626,5 +7629,40 @@
 	}
 	869.1.1 = { #Burned to death inside a longhouse by Harald and Guttorm after Guttorm found out where Eysteinn was rallying troops for an attack.
 		death = yes
+	}
+}
+
+
+
+
+
+168324 = { #Spare TODO Fix the Harald Fairhair's mother Sogn vs Hjort cerfluffle... Hint, it's Sogn.
+	name = "Haraldr" 
+	#The dead bigger brother of Harald Fairhair born to Ragnhild Haraldsdatter of Sogn that's totally real and totally not 
+	#a retcon to enable Fairhair ancestry with Sigurd Hjort and in extension, Ragnar Lodbrok... 
+	dynasty = 499
+	religion = "norse_pagan"
+	culture = "norse"
+	father = 168323
+	mother = 168649
+	847.2.2 = {
+		birth = "847.2.2"
+	}
+	858.1.1 = {
+		death = "858.1.1"
+	}
+}
+
+168327 = {
+	name = "Eysteinn" #Spare
+	dynasty = 499
+	religion = "norse_pagan"
+	culture = "norse"
+	father = 168330
+	852.1.1 = {
+		birth = "828.1.1"
+	}
+	875.1.1 = {
+		death = "848.1.1"
 	}
 }

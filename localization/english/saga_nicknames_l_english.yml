@@ -1,0 +1,19 @@
+﻿l_english:
+
+ nick_yngling_whiteshanks:0 "Whiteshanks"
+ nick_yngling_whiteshanks:1 "TODO"
+ nick_yngling_fart:0 "The Fart"
+ nick_yngling_fart:1 "TODO"
+ nick_yngling_the_generous_and_foodgrudging:0 "The Gold Generous and Food Grudging"
+ nick_yngling_the_generous_and_foodgrudging:1 "TODO"
+ nick_yngling_hunterking:0 "The Hunter-King"
+ nick_yngling_hunterking:1 "TODO"
+ nick_yngling_geirstadalf:0 "Geirstadalf"
+ nick_yngling_geirstadalf:1 "TODO"
+ nick_yngling_highly_honoured:0 "The Highly Honoured"
+ nick_yngling_highly_honoured:1 "TODO"
+ nick_yngling_the_black:0 "The Black"
+ nick_yngling_the_black_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat] by reason of [CharYouHerHis(CHARACTER)] black hair, is called [CHARACTER.GetShortUINameNoTooltipNoFormat] the Black"
+
+ nick_the_walker:0 "The Walker"
+ nick_the_walker:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat] is of so stout a growth that no horse can carry [CharYouHerHim(CHARACTER)], and wheresoever [CharYouSheHe(CHARACTER)] goes [CharYouSheHe(CHARACTER)] must go on foot."

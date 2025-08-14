@@ -1,2 +1,127 @@
 ﻿l_english:
- b_telemark:1 "Grenmar & Vestmar"
+
+ d_dalir:1 "Upplǫnd"
+ d_dalir_adj:0 "Upplender"
+
+ b_orkdala:1 "Grýting"
+ b_dovre:1 "Lesjar"
+ b_northri_gudbrandsdali:1 "Vágar"
+ b_suthri_gudbrandsdali:1 "Hundþorp"
+
+ b_northri_eystridali:1 "Elfardalr"
+ b_suthri_eystridali:1 "Sóleyar"
+
+ c_hedmork:1 "Heiðmǫrk"
+ c_hedmork_adj:0 "Heiðmarkian"
+ b_hedmork:1 "Hofvin"
+
+ c_ringariki:1 "Hringaríki"
+ b_ringariki:1 "Steinn"
+ b_valdres:0 "Þengilstaðir" 
+
+ c_raumariki:1 "Raumaríki"
+ b_romerriki:1 "Freylandir"
+ b_stange:0 "Eiðsvellir"
+
+ c_vingulmork:1 "Vingulmǫrk"
+ c_vingulmork_adj:0 "Vingulmarkian"
+ b_oslosyslar:1 "Ásló"
+ b_ski:0 "Skeið"
+ b_borgarsyslar:1 "Álfheimr"
+ b_austfold:1 "Varna"
+
+ c_raniriki:1 "Ránríki"
+ c_raniriki_adj:0 "Ránríkian"
+ b_bagahus:1 "Konungahella"
+ b_uddevalla:0 "Oddavǫllr"
+ b_ranariki:1 "Ránríki"
+
+ c_vestfold:0 "Vestfold"
+ c_vestfold_adj:0 "Vestfolder"
+ b_drafn:0 "Húsabýr"
+ b_tunsberg:1 "Borró"
+ b_skiringssal:1 "Skíringssalr"
+
+ c_telemark:1 "Þelamǫrk"
+ c_telemark_adj:1 "Þelamarkian"
+ b_numedall:1 "Þelamǫrk"
+ b_heddall:1 "Grenland"  
+ b_telemark:1 "Vestmar"
+
+ b_arendall:1 "þrǫmr"
+ b_aarak:1 "Hvinir"
+ b_raaboigde:1 "Robyggjalǫg" 
+
+ b_norwegian_lister:1 "Listi"
+ b_heiane:1 "Sírudalr"
+ b_ottrunes:1 "Otrunes"
+
+ b_haugelandi:1 "Ǫgvaldsnes"
+ b_ryfylki:1 "Útsteinn"
+ b_jatharr:1 "Sóli"
+ 
+ c_hordalandi:1 "Hǫrðaland"
+ c_hordalandi_adj:0 "Hǫrðalander"
+ b_bjorgvin:1 "Álrekstaðir"
+ b_voss:1 "Vangr"
+ b_northrihordalandi:1 "Sæheimr"
+ b_sunnhordalandi:1 "Fitjar" 
+ b_hardanger:1 "Ullinsvangr" 
+
+ c_sogn:0 "Sygnafylkí"
+ c_sogn_adj:0 "Sygnian"
+ b_bremanger:1 "Gulaþing"
+ b_fjarlandi:1 "Heyangr"
+ b_sognfylki:1 "Húsabœr"
+ b_dale:1 "Atley"
+ b_stolsheimen:1 "Aurland"
+
+ c_firdafylki:1 "Firðafylkí"
+ c_firdafylki_adj:0 "Firðian"
+ b_firdafylki:1 "Berðla"
+ b_jolster:1 "Miklibólstaðir"
+
+
+ d_trandalog:1 "Þrændalǫg"
+
+ b_sunnmore:1 "Gískey"
+ b_raumsdali:1 "Húsastaðir"
+ b_northri_more:1 "Birkístrǫnd"
+
+ b_nidaros:1 "Sǫlvi"
+ b_eynafylki:0 "Mærin"
+ b_verdala:1 "Stafr"
+
+ b_stjordala:1 "Óðinssalr"
+ b_gauldala:1 "Búnes"
+
+
+
+ b_utan_namdal:1 "Ytri Naumudalr"
+ b_innan_namdal:1 "Innri Naumudalr"
+ b_torgar:0 "Torgar"
+ b_grong:1 "Vefsn"
+
+ c_bothin:1 "Hálogaland"
+ c_bothin_adj:0 "Hálogalender"
+ b_sandnes:0 "þjotta"
+ b_rodoy:1 "Alǫst" 
+ b_aarborte:1 "Mór"
+ b_bothin:1 "Goðeyjar"
+
+ b_vagan:1 "Steig"
+ b_bjarkoy:1 "Bjarkey"
+ b_vastvagborg:1 "Vágar"
+
+
+ d_iceland:0 "Ísland"
+ d_iceland_adj:0 "Íslander"
+
+ c_faereyar:1 "Færeyjar"
+ c_faereyar_adj:1 "Færeyjan"
+
+ c_shetland:0 "Hjaltland"
+ c_shetland_adj:0 "Hjaltlander"
+
+ d_orkney:0 "Orkneyjar"
+ d_orkney_adj:1 "Orkneyjan"

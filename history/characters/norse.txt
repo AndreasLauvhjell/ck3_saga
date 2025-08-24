@@ -360,22 +360,6 @@
 	}
 }
 
-6864 = {
-	name = "Aslaug" #Fictional?
-	dynasty_house = house_british_isles_ivaring # af Ivar
-	female = yes
-	religion = "norse_pagan"
-	culture = norse
-	trait = beauty_good_1
-	father = 163111 #Ivar the Boneless
-	mother = 306011 #Fictional wife of Ivar
-	866.1.1 = {
-		birth = yes
-	}
-	915.1.1 = {
-		death = yes
-	}
-}
 
 6865 = {
 	name = "Frirek"
@@ -3784,7 +3768,7 @@
 
 
 163111 = {
-	name = Ivar # The Boneless
+	name = Ivar # The Boneless. No record of wife, nor children. His heir was his brother... 
 	dna = 163111_ivar_the_boneless
 	dynasty_house = house_british_isles_ivaring
 	religion = norse_pagan
@@ -3801,6 +3785,8 @@
 	trait = one_legged
 	trait = viking
 	trait = education_martial_4
+	trait = impotent #Truly boneless now. 
+
 	sexuality = heterosexual
 	father = 163109 #Ragnarr Lodbrok
 	mother = 6836 #Auslaug
@@ -3872,94 +3858,6 @@
 		death = yes
 	}
 }
-
-306011 = { #Fictional wife of Ivar the Boneless
-	name = Freydi_s
-	dna = 306011_freydis
-	female = yes
-	religion = norse_pagan
-	culture = norse
-	trait = beauty_good_2
-	trait = deceitful
-	trait = lustful
-	trait = ambitious
-	trait = education_intrigue_3
-	learning = 8
-	840.1.1 = {
-		birth = yes
-	}
-	875.1.6 = {
-		death = yes
-	}
-}
-
-6814 = {
-	name = "Barid" #Son of the viking Ímar some scholars believe to be Ivar the Boneless
-	dynasty_house = house_british_isles_ivaring
-	religion = "norse_pagan"
-	culture = norse
-	father = 163111 #Ivar the Boneless
-	mother = 306011 #Fictional wife of Ivar
-	trait = gregarious
-	trait = charming
-	trait = beauty_good_1
-	858.1.1 = {
-		birth = yes
-	}
-	874.1.1 = {
-		effect = {
-			remove_trait = charming
-		}
-	}
-	881.1.1 = {
-		death = yes
-	}
-}
-
-40609 = {
-	name = "SigfroT_" #Son of the viking Ímar some scholars believe to be Ivar the Boneless
-	dynasty_house = house_british_isles_ivaring
-	religion = "norse_pagan"
-	culture = norse
-	father = 163111 #Ivar the Boneless
-	mother = 306011 #Fictional wife of Ivar
-	
-	trait = bossy
-	862.1.1 = {
-		birth = yes
-	}
-	878.1.1 = {
-		effect = {
-			remove_trait = bossy
-		}
-	}
-	888.1.1 = {
-		death = yes
-	}
-}
-
-40608 = {
-	name = "Sigtrygg" #Son of the viking Ímar some scholars believe to be Ivar the Boneless
-	dynasty_house = house_british_isles_ivaring
-	religion = "norse_pagan"
-	culture = norse
-	father = 163111 #Ivar the Boneless
-	mother = 306011 #Fictional wife of Ivar
-	trait = beauty_good_2
-	trait = charming
-	864.1.1 = {
-		birth = yes
-	}
-	880.1.1 = {
-		effect = {
-			remove_trait = charming
-		}
-	}
-	896.1.1 = {
-		death = yes
-	}
-}
-
 
 
 163112 = {
@@ -4052,31 +3950,30 @@
 	}
 }
 
-306010 = { #Fictional daughter of Halfdan
-	name = Saga
-	dna = 306010_saga
-	female = yes
-	religion = "norse_pagan"
-	culture = norse
-	trait = honest
-	trait = ambitious
-	trait = patient
-	trait = intellect_good_1
-	father = 163112 # "Halfdan" # Ragnarsson 'Hvitserk'
-	mother = 306009 #Fictional wife of Halfdan
-	845.1.1 = {
-		birth = yes
-	}
-	855.1.1 = {
-		effect = {
-			set_relation_friend = { reason = friend_generic_history target = character:163112 } #His favorite
-			give_nickname = nick_the_truthspeaker
-		}
-	}
-	910.1.1 = {
-		death = yes
-	}
-}
+#The cheat code for norse. Marry her, get an unfair alliance. DROPPED.
+#306010 = { #Fictional daughter of Halfdan
+#	name = Saga
+#	dna = 306010_saga
+#	female = yes
+#	religion = "norse_pagan"
+#	trait = honest
+#	trait = ambitious
+#	trait = patient
+#	trait = intellect_good_1
+#	father = 163112 # "Halfdan" # Ragnarsson 'Hvitserk'
+#	mother = 306009 #Fictional wife of Halfdan
+#	845.1.1 = {
+#		birth = yes
+#	}
+#	855.1.1 = {
+#		effect = {
+#			set_relation_friend = { reason = friend_generic_history target = character:163112 } #His favorite
+#			give_nickname = nick_the_truthspeaker
+#	}
+#	910.1.1 = {
+#		death = yes
+#	}
+#}
 
 40607 = {
 	name = "Ragnarr" # Fictional son of Halfdan Hvitserk's
@@ -5509,21 +5406,6 @@
 	}
 }
 
-168500 = {
-	name = "GuT_friT_" #Fictional? Or the grandson of Ìmair AKA maybe-Ivar
-	dynasty_house = house_british_isles_ivaring
-	religion = "norse_pagan"
-	culture = norse
-	father = 163111 #Ivar the Boneless
-	mother = 306011 #Fictional wife of Ivar
-	867.1.1 = {
-		birth = yes
-	}
-	891.1.1 = {
-		death = yes
-	}
-}
-
 168612 = {
 	name = "Yngvild"
 	female = yes
@@ -6939,7 +6821,7 @@
 	trait = intellect_good_1
 	trait = ambitious
 	trait = brave
-	trait = wrothful
+	trait = wrathful
 	#trait = diligent 
 	trait = aggressive_attacker
 	trait = lifestyle_hunter
